@@ -1,0 +1,32 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+    "logo": {
+        "type": "small",
+        "source": "debian",
+        "width": 65,
+        "height": 35,
+        "padding": {
+            "top": 0,
+            "left": 0,
+            "right": 2
+        },
+        "color": {
+            "1": "blue",
+            "2": "green"
+        }
+    },
+
+    "modules": [
+        "title",
+        "separator",
+        "os",
+        "kernel",
+        "uptime",
+        "packages",
+        "shell",
+        "wm",
+        "terminal",
+        "battery"
+    ]
+}
